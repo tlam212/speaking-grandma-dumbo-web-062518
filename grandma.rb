@@ -2,17 +2,17 @@
    
    if phrase == "I LOVE YOU GRANDMA!"
      return "I LOVE YOU TOO PUMPKIN!"
-   end
-   if phrase == "Hi Nana, how are you?"
+   
+   elsif phrase == "Hi Nana, how are you?"
      return "HUH?! SPEAK UP, SONNY!"
-   end 
-   if phrase == "Hi!"
+  
+   elsif phrase == "Hi!"
      return "HUH?! SPEAK UP, SONNY!"
-   end
-   if phrase == "WHAT DID YOU EAT TODAY?"
+   
+   elsif phrase == "WHAT DID YOU EAT TODAY?"
      return "NO, NOT SINCE 1938!"
-   end
-   if phrase == "WHAT?"
+   
+   else phrase == "WHAT?"
      return "NO, NOT SINCE 1938!"
    end
  end 
